@@ -1,0 +1,45 @@
+@import url('reset.css');
+
+#outer-wrapper {
+  display:flex;
+  flex-flow:row wrap;
+  width:1280px;
+  height:800px;
+  margin:0 auto;
+  border:1px solid black;
+}
+
+#vs {
+  width:200px;
+  height:200px;
+  border:1px solid black;
+  padding:10px;
+  margin:250px 25px 25px 25px;
+}
+
+.movie-poster{
+  width:400px;
+  height:600px;
+  border:1px solid black;
+  padding:10px;
+  margin:40px 40px 40px 40px;
+  flex-grow:1;
+    
+}
+
+#random-btn{
+  
+  background: linear-gradient(teal, orange);
+  width:200px;
+  height:50px;
+  border-radius:40px;
+  color:white;
+  text-transform:uppercase;
+  text-align:center;
+  line-height:50px;
+  font-family:futura;
+  font-size:25px;
+  font-weight:700;
+  cursor: pointer;
+  margin: 0 auto;
+}
