@@ -3,31 +3,41 @@
 #outer-wrapper {
   display:flex;
   flex-flow:row wrap;
-  width:1280px;
-  height:800px;
+  width:100vw;
+  height:100vh;
+  background-color: green;
   margin:0 auto;
-  border:1px solid black;
-}
+  /*border:1px solid black; */
+  }
 
 #vs {
   width:200px;
   height:200px;
-  border:1px solid black;
-  padding:10px;
-  margin:250px 25px 25px 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -90px 0 0 -170px;
+  z-index:100;
+  /*border:1px solid black; */
+  
 }
 
-.movie-poster{
-  width:400px;
-  height:600px;
-  border:1px solid black;
-  padding:10px;
-  margin:40px 40px 40px 40px;
-  flex-grow:1;
-    
-}
+.movie-poster-one-bg {
+  width:50vw;
+  height:100vh;
+  background-color: orange;
+  /* border:1px solid black; */
+  
+ }
 
-#random-btn{
+.movie-poster-two-bg {
+  width:50vw;
+  height:100vh;
+  background-color: blue;
+  /* border:1px solid black; */
+}
+  
+#random-btn {
   
   background: linear-gradient(teal, orange);
   width:200px;
